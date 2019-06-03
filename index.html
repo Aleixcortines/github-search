@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="#" />
+  <title>Github Search</title>
+  <link href="./styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div class= box-search>
+      
+        <div class="inputs-box">
+          <input class="input" id="inputBox" type="text" name="searchBox" placeholder="Search a username on GitHub" />
+          <button class="searchButton" type="button" onclick=fetchCall()><b>Search</b></button>
+        </div>
+       
+        <div id="error"></div>
+
+      <div class="general-info" id="gene-info">
+
+        <div class="box-user-info" id="userInfo"> 
+          <div class="box-avatar">
+              <img  id="picAvatar" class="picture">
+          </div>
+          <div class="details-info">
+            <span class="user-name" id="username"></span>
+            <h2 class="full-name" id="fullname"></h2>
+            <span class="bio" id="bio"></span>
+          </div>
+        </div>
+
+        <div id="repositories" class="repo-container">
+          <div class="repTitle" id="repositoriesTitle"></div>
+          <div class="hr-line" id="hr"></div>
+          <div class="repositories-titles">
+  
+              <div class="reponame" id="reponame"></div>
+
+              <div class="repo-items">
+
+                <div class="star-img" id="starimg"></div>
+                <div class="star-num" id="starsnumber"></div>
+                <div class="fork-img" id="forkimg"></div>
+                <div class="fork-num" id="forksnumber"></div>
+
+              </div>
+
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+        
+        <!-- JS file -->
+        <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+body {
+  background-color: #dfe2e5;
+}
+
+.box-search {
+  background-color: #ffffff;
+  margin-left: 350px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  -webkit-box-shadow: 22px 32px 5px 0px #bdaebd;
+  box-shadow: 22px 32px 5px 0px #bdaebd;
+}
+
+.erroruser {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4e0101;
+  background-color: #ff000070;
+  font: 100% Helvetica, sans-serif;
+  border-radius: 3px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.inputs-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.input {
+  font: 100% Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-right: 20px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.searchButton {
+  font: 100% Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 3px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.box-user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 53px;
+}
+
+.picture {
+  height: 125px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.repTitle {
+  font: 100% Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 50px;
+  border-bottom: solid;
+  border-bottom-color: dimgrey;
+  margin-right: 48px;
+}
+
+.hr-line {
+  margin-left: 50px;
+  margin-right: 47px;
+}
+
+.repositories-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 48px;
+  margin-right: 50px;
+}
+
+.reponame {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-name {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.full-name {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.star-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.star-img img {
+  width: 78%;
+  margin-top: 6px;
+}
+
+.star-num {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.fork-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.fork-img img {
+  width: 40%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.fork-num {
+  margin-left: 10px;
+}
+
+.repo-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.general-info {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
