@@ -1,8 +1,13 @@
 
+//Event listener using arrow function
+document.getElementById("btnfetch").addEventListener("click", evt => fetchCall(evt));
+    
 //call through fetch to API of Github
 const fetchCall = () => {
+
     let userName = document.getElementById("inputBox").value;
     const urlUsers = `https://api.github.com/users/${userName}`;
+    
     fetch(urlUsers)
         .then(response => response.json())
         .then(jsonData => {
